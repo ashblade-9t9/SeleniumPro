@@ -1,7 +1,7 @@
 Feature: Testing the dropdown
 
 
-  @Latest
+  @Sanity
   Scenario Outline: Verification of dropdown
     Given User opened the bowser
     Then Maximized it and visited the website
@@ -11,4 +11,4 @@ Feature: Testing the dropdown
 
     Examples:
     |function| value|
-    |Widgets|selectMenu|  
+    |Widgets|selectMenu|
